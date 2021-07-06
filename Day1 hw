@@ -1,0 +1,11 @@
+#x=10
+#pi=3.14
+#c=10*2*3.14
+
+def main():
+  print("輸入半徑:")
+  y=float(input())
+  #input(d = x)
+  print("輸入:",y, " 圓周長:" ,round(y*2*3.14,10))
+  #print(c)
+main()
