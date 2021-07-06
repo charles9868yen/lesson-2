@@ -1,0 +1,16 @@
+def main():
+  print("數學成績?")
+  print("英文成績?")
+  x=int(input())
+  y=int(input())
+  if x>=90 and y>=90:
+    print("恭喜拿到小禮物!!!")
+  elif x<60 and y<60:
+    print("要被懲罰了QaQ...恐怖...")
+  elif x<60:
+    print("請數學再多多加油!!!")
+  elif y<60:
+    print("請英文再多多加油!!!") 
+  else:
+    print("!普普通通!")
+main()
