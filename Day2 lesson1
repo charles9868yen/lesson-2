@@ -1,0 +1,9 @@
+def main():
+  print("分數:")
+  x=int(input())
+  if x>60:
+     print("恭喜及格!!!")
+  else:
+     print("不及格QaQ")
+     
+main()
