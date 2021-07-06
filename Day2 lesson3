@@ -1,0 +1,14 @@
+def main():
+  print("數學成績?")
+  print("英文成績?")
+  x=int(input())
+  y=int(input())
+  if x == 100 or y ==100:
+    print("恭喜拿到校長的獎學金!!!")
+  elif x>=90 and y>=90:
+    print("恭喜拿到校長的獎學金!!!")
+  else:
+    print("獎學金飛了...")
+    
+main()
+      
