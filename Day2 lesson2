@@ -1,0 +1,15 @@
+def main():
+  print("分數?")
+  x=int(input())
+  print("結果...")
+  if x<=59:
+    print("E")
+  elif x<=69:
+    print("D")
+  elif x<=79:
+    print("C")
+  elif x<=89:
+    print("B")
+  else:
+    print("A")
+main()
