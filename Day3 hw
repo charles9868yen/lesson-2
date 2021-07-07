@@ -1,0 +1,33 @@
+def main():
+  import random  
+  num=(random.randint(1,20))
+  total=1
+  print("Guess a number between 1 to 20!")
+  #
+  x=int(input())
+   
+  while (total<=5 and x!=num):
+     
+     if x>num:
+       print("Too big!!! guess again")
+       
+     else :
+       print("Too small!!! guess again")
+       
+     total=total+1
+     x=int(input())
+ 
+ 
+  while x!=num:
+      print ("You're wrong")
+      total=total+1
+      x=int(input())
+     
+  print("Congratuation, you have guessed:", total, " times")
+  print("Play again??? Press 0 for again and else for quit")
+  y=int(input())
+  if y==0:
+     main()
+  else:
+     print("Have a nice day BYEBYE")
+main()
