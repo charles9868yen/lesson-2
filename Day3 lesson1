@@ -1,0 +1,8 @@
+import random  
+num=(random.randint(1,10))
+print("Guess a number, 1 to 10")
+x=int(input())
+if x == num:
+  print("Your Right!!! It's:", num)
+else:
+  print("No Your Wrong!!! It's:",num)
