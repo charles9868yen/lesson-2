@@ -1,0 +1,29 @@
+score=[]
+score.append(30)
+score.append(50)
+score.append(40)
+score.append(10)
+score.append(20)
+name=["Red","Orange","Yellow","Green","Blue"]
+
+sum=0
+size=0
+high=0
+for i in range(5):
+    print(score[i])
+    sum=sum+score[i]
+    if score[i]>size:
+        size=score[i]
+        high=name[i]
+small=size+10
+low=0
+for i in range(5):
+    if score[i]<small:
+        small=score[i]
+        low=name[i]
+print("The average is:",sum/5)
+print("The highest score is:",size)
+print("The lowest score is:",small)
+print("The person that get the highest score is:",high)
+print("The person that get the lowest score is:",low)
+print("The distance between highest and lowwest is:",size-small)
