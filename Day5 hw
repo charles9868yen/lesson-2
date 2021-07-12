@@ -1,9 +1,0 @@
-score=[]
-total=0
-inscore=0
-print("請輸入-1來停止計算")
-while inscore !=-1:
-    total=total+1
-    inscore=int(input("請輸入成績"))
-    score.append(inscore)
-print(total,"位同學的成績且平均是",)
