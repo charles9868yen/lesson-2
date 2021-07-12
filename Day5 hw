@@ -1,0 +1,21 @@
+score=[]
+score.append(30)
+score.append(50)
+score.append(40)
+score.append(10)
+score.append(20)
+
+sum=0
+size=0
+for i in range(5):
+    print(score[i])
+    sum=sum+score[i]
+    if score[i]>size:
+        size=score[i]
+small=size+10
+for i in range(5):
+    if score[i]<small:
+        small=score[i]
+print(sum/5)
+print(size)
+print(small)
